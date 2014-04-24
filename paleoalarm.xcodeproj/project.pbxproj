@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37EB14C71909965F00F1E104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EB14C61909965F00F1E104 /* Foundation.framework */; };
+		37EB14C91909965F00F1E104 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EB14C81909965F00F1E104 /* CoreGraphics.framework */; };
+		37EB14CB1909965F00F1E104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EB14CA1909965F00F1E104 /* UIKit.framework */; };
+		37EB14D11909965F00F1E104 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37EB14CF1909965F00F1E104 /* InfoPlist.strings */; };
+		37EB14D31909965F00F1E104 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EB14D21909965F00F1E104 /* main.m */; };
+		37EB14D71909965F00F1E104 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EB14D61909965F00F1E104 /* AppDelegate.m */; };
+		37EB14DA1909965F00F1E104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37EB14D81909965F00F1E104 /* Main.storyboard */; };
+		37EB14DD1909965F00F1E104 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EB14DC1909965F00F1E104 /* ViewController.m */; };
+		37EB14DF1909965F00F1E104 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37EB14DE1909965F00F1E104 /* Images.xcassets */; };
+		37EB14E61909965F00F1E104 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EB14E51909965F00F1E104 /* XCTest.framework */; };
+		37EB14E71909965F00F1E104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EB14C61909965F00F1E104 /* Foundation.framework */; };
+		37EB14E81909965F00F1E104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EB14CA1909965F00F1E104 /* UIKit.framework */; };
+		37EB14F01909965F00F1E104 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37EB14EE1909965F00F1E104 /* InfoPlist.strings */; };
+		37EB14F21909965F00F1E104 /* paleoalarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EB14F11909965F00F1E104 /* paleoalarmTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37EB14E91909965F00F1E104 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37EB14BB1909965F00F1E104 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37EB14C21909965F00F1E104;
+			remoteInfo = paleoalarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37EB14C31909965F00F1E104 /* paleoalarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paleoalarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EB14C61909965F00F1E104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37EB14C81909965F00F1E104 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37EB14CA1909965F00F1E104 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37EB14CE1909965F00F1E104 /* paleoalarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "paleoalarm-Info.plist"; sourceTree = "<group>"; };
+		37EB14D01909965F00F1E104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37EB14D21909965F00F1E104 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37EB14D41909965F00F1E104 /* paleoalarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "paleoalarm-Prefix.pch"; sourceTree = "<group>"; };
+		37EB14D51909965F00F1E104 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37EB14D61909965F00F1E104 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37EB14D91909965F00F1E104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37EB14DB1909965F00F1E104 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37EB14DC1909965F00F1E104 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37EB14DE1909965F00F1E104 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37EB14E41909965F00F1E104 /* paleoalarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = paleoalarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37EB14E51909965F00F1E104 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		37EB14ED1909965F00F1E104 /* paleoalarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "paleoalarmTests-Info.plist"; sourceTree = "<group>"; };
+		37EB14EF1909965F00F1E104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37EB14F11909965F00F1E104 /* paleoalarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = paleoalarmTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37EB14C01909965F00F1E104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB14C91909965F00F1E104 /* CoreGraphics.framework in Frameworks */,
+				37EB14CB1909965F00F1E104 /* UIKit.framework in Frameworks */,
+				37EB14C71909965F00F1E104 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EB14E11909965F00F1E104 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB14E61909965F00F1E104 /* XCTest.framework in Frameworks */,
+				37EB14E81909965F00F1E104 /* UIKit.framework in Frameworks */,
+				37EB14E71909965F00F1E104 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37EB14BA1909965F00F1E104 = {
+			isa = PBXGroup;
+			children = (
+				37EB14CC1909965F00F1E104 /* paleoalarm */,
+				37EB14EB1909965F00F1E104 /* paleoalarmTests */,
+				37EB14C51909965F00F1E104 /* Frameworks */,
+				37EB14C41909965F00F1E104 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37EB14C41909965F00F1E104 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37EB14C31909965F00F1E104 /* paleoalarm.app */,
+				37EB14E41909965F00F1E104 /* paleoalarmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37EB14C51909965F00F1E104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37EB14C61909965F00F1E104 /* Foundation.framework */,
+				37EB14C81909965F00F1E104 /* CoreGraphics.framework */,
+				37EB14CA1909965F00F1E104 /* UIKit.framework */,
+				37EB14E51909965F00F1E104 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37EB14CC1909965F00F1E104 /* paleoalarm */ = {
+			isa = PBXGroup;
+			children = (
+				37EB14D51909965F00F1E104 /* AppDelegate.h */,
+				37EB14D61909965F00F1E104 /* AppDelegate.m */,
+				37EB14D81909965F00F1E104 /* Main.storyboard */,
+				37EB14DB1909965F00F1E104 /* ViewController.h */,
+				37EB14DC1909965F00F1E104 /* ViewController.m */,
+				37EB14DE1909965F00F1E104 /* Images.xcassets */,
+				37EB14CD1909965F00F1E104 /* Supporting Files */,
+			);
+			path = paleoalarm;
+			sourceTree = "<group>";
+		};
+		37EB14CD1909965F00F1E104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37EB14CE1909965F00F1E104 /* paleoalarm-Info.plist */,
+				37EB14CF1909965F00F1E104 /* InfoPlist.strings */,
+				37EB14D21909965F00F1E104 /* main.m */,
+				37EB14D41909965F00F1E104 /* paleoalarm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37EB14EB1909965F00F1E104 /* paleoalarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				37EB14F11909965F00F1E104 /* paleoalarmTests.m */,
+				37EB14EC1909965F00F1E104 /* Supporting Files */,
+			);
+			path = paleoalarmTests;
+			sourceTree = "<group>";
+		};
+		37EB14EC1909965F00F1E104 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37EB14ED1909965F00F1E104 /* paleoalarmTests-Info.plist */,
+				37EB14EE1909965F00F1E104 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37EB14C21909965F00F1E104 /* paleoalarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EB14F51909965F00F1E104 /* Build configuration list for PBXNativeTarget "paleoalarm" */;
+			buildPhases = (
+				37EB14BF1909965F00F1E104 /* Sources */,
+				37EB14C01909965F00F1E104 /* Frameworks */,
+				37EB14C11909965F00F1E104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = paleoalarm;
+			productName = paleoalarm;
+			productReference = 37EB14C31909965F00F1E104 /* paleoalarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37EB14E31909965F00F1E104 /* paleoalarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37EB14F81909965F00F1E104 /* Build configuration list for PBXNativeTarget "paleoalarmTests" */;
+			buildPhases = (
+				37EB14E01909965F00F1E104 /* Sources */,
+				37EB14E11909965F00F1E104 /* Frameworks */,
+				37EB14E21909965F00F1E104 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37EB14EA1909965F00F1E104 /* PBXTargetDependency */,
+			);
+			name = paleoalarmTests;
+			productName = paleoalarmTests;
+			productReference = 37EB14E41909965F00F1E104 /* paleoalarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37EB14BB1909965F00F1E104 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daniel Pape";
+				TargetAttributes = {
+					37EB14E31909965F00F1E104 = {
+						TestTargetID = 37EB14C21909965F00F1E104;
+					};
+				};
+			};
+			buildConfigurationList = 37EB14BE1909965F00F1E104 /* Build configuration list for PBXProject "paleoalarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37EB14BA1909965F00F1E104;
+			productRefGroup = 37EB14C41909965F00F1E104 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37EB14C21909965F00F1E104 /* paleoalarm */,
+				37EB14E31909965F00F1E104 /* paleoalarmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37EB14C11909965F00F1E104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB14DF1909965F00F1E104 /* Images.xcassets in Resources */,
+				37EB14D11909965F00F1E104 /* InfoPlist.strings in Resources */,
+				37EB14DA1909965F00F1E104 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EB14E21909965F00F1E104 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB14F01909965F00F1E104 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37EB14BF1909965F00F1E104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB14DD1909965F00F1E104 /* ViewController.m in Sources */,
+				37EB14D71909965F00F1E104 /* AppDelegate.m in Sources */,
+				37EB14D31909965F00F1E104 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EB14E01909965F00F1E104 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB14F21909965F00F1E104 /* paleoalarmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37EB14EA1909965F00F1E104 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37EB14C21909965F00F1E104 /* paleoalarm */;
+			targetProxy = 37EB14E91909965F00F1E104 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37EB14CF1909965F00F1E104 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EB14D01909965F00F1E104 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37EB14D81909965F00F1E104 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EB14D91909965F00F1E104 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37EB14EE1909965F00F1E104 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37EB14EF1909965F00F1E104 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37EB14F31909965F00F1E104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37EB14F41909965F00F1E104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37EB14F61909965F00F1E104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "paleoalarm/paleoalarm-Prefix.pch";
+				INFOPLIST_FILE = "paleoalarm/paleoalarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37EB14F71909965F00F1E104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "paleoalarm/paleoalarm-Prefix.pch";
+				INFOPLIST_FILE = "paleoalarm/paleoalarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37EB14F91909965F00F1E104 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/paleoalarm.app/paleoalarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "paleoalarm/paleoalarm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "paleoalarmTests/paleoalarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		37EB14FA1909965F00F1E104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/paleoalarm.app/paleoalarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "paleoalarm/paleoalarm-Prefix.pch";
+				INFOPLIST_FILE = "paleoalarmTests/paleoalarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37EB14BE1909965F00F1E104 /* Build configuration list for PBXProject "paleoalarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EB14F31909965F00F1E104 /* Debug */,
+				37EB14F41909965F00F1E104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37EB14F51909965F00F1E104 /* Build configuration list for PBXNativeTarget "paleoalarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EB14F61909965F00F1E104 /* Debug */,
+				37EB14F71909965F00F1E104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37EB14F81909965F00F1E104 /* Build configuration list for PBXNativeTarget "paleoalarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37EB14F91909965F00F1E104 /* Debug */,
+				37EB14FA1909965F00F1E104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37EB14BB1909965F00F1E104 /* Project object */;
+}
