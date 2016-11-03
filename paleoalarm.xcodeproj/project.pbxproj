@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3782018F1919747300D2EC55 /* riseWithNature001.png in Resources */ = {isa = PBXBuildFile; fileRef = 3782018E1919747300D2EC55 /* riseWithNature001.png */; };
+		37820193191ACEA100D2EC55 /* sun001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37820191191ACEA100D2EC55 /* sun001@2x.png */; };
+		37820195191ACEAD00D2EC55 /* sun001.png in Resources */ = {isa = PBXBuildFile; fileRef = 37820194191ACEAD00D2EC55 /* sun001.png */; };
+		37820198191ACFD700D2EC55 /* land001.png in Resources */ = {isa = PBXBuildFile; fileRef = 37820196191ACFD700D2EC55 /* land001.png */; };
+		37820199191ACFD700D2EC55 /* land001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37820197191ACFD700D2EC55 /* land001@2x.png */; };
+		3782019C191AD4CB00D2EC55 /* sunriseSky001.png in Resources */ = {isa = PBXBuildFile; fileRef = 3782019A191AD4CB00D2EC55 /* sunriseSky001.png */; };
+		3782019D191AD4CB00D2EC55 /* sunriseSky001@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3782019B191AD4CB00D2EC55 /* sunriseSky001@2x.png */; };
+		378201A0191AD55500D2EC55 /* sky8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3782019E191AD55500D2EC55 /* sky8.png */; };
+		378201A1191AD55500D2EC55 /* sky8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3782019F191AD55500D2EC55 /* sky8@2x.png */; };
+		37C1C6BA1909B4D700A2C26D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C1C6B91909B4D700A2C26D /* CoreLocation.framework */; };
 		37EB14C71909965F00F1E104 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EB14C61909965F00F1E104 /* Foundation.framework */; };
 		37EB14C91909965F00F1E104 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EB14C81909965F00F1E104 /* CoreGraphics.framework */; };
 		37EB14CB1909965F00F1E104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EB14CA1909965F00F1E104 /* UIKit.framework */; };
@@ -21,6 +31,7 @@
 		37EB14E81909965F00F1E104 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EB14CA1909965F00F1E104 /* UIKit.framework */; };
 		37EB14F01909965F00F1E104 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37EB14EE1909965F00F1E104 /* InfoPlist.strings */; };
 		37EB14F21909965F00F1E104 /* paleoalarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EB14F11909965F00F1E104 /* paleoalarmTests.m */; };
+		37EB15091909AEBA00F1E104 /* EDSunriseSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EB15081909AEBA00F1E104 /* EDSunriseSet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3782018E1919747300D2EC55 /* riseWithNature001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = riseWithNature001.png; path = images/riseWithNature001.png; sourceTree = "<group>"; };
+		37820191191ACEA100D2EC55 /* sun001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sun001@2x.png"; path = "images/sun001@2x.png"; sourceTree = "<group>"; };
+		37820194191ACEAD00D2EC55 /* sun001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sun001.png; path = images/sun001.png; sourceTree = "<group>"; };
+		37820196191ACFD700D2EC55 /* land001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = land001.png; path = images/land001.png; sourceTree = "<group>"; };
+		37820197191ACFD700D2EC55 /* land001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "land001@2x.png"; path = "images/land001@2x.png"; sourceTree = "<group>"; };
+		3782019A191AD4CB00D2EC55 /* sunriseSky001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sunriseSky001.png; path = images/sunriseSky001.png; sourceTree = "<group>"; };
+		3782019B191AD4CB00D2EC55 /* sunriseSky001@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "sunriseSky001@2x.png"; path = "images/sunriseSky001@2x.png"; sourceTree = "<group>"; };
+		3782019E191AD55500D2EC55 /* sky8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sky8.png; sourceTree = "<group>"; };
+		3782019F191AD55500D2EC55 /* sky8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sky8@2x.png"; sourceTree = "<group>"; };
+		37C1C6B71909B30B00A2C26D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		37C1C6B91909B4D700A2C26D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		37EB14C31909965F00F1E104 /* paleoalarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paleoalarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37EB14C61909965F00F1E104 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37EB14C81909965F00F1E104 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +75,8 @@
 		37EB14ED1909965F00F1E104 /* paleoalarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "paleoalarmTests-Info.plist"; sourceTree = "<group>"; };
 		37EB14EF1909965F00F1E104 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37EB14F11909965F00F1E104 /* paleoalarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = paleoalarmTests.m; sourceTree = "<group>"; };
+		37EB15071909AEBA00F1E104 /* EDSunriseSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDSunriseSet.h; sourceTree = "<group>"; };
+		37EB15081909AEBA00F1E104 /* EDSunriseSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDSunriseSet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C1C6BA1909B4D700A2C26D /* CoreLocation.framework in Frameworks */,
 				37EB14C91909965F00F1E104 /* CoreGraphics.framework in Frameworks */,
 				37EB14CB1909965F00F1E104 /* UIKit.framework in Frameworks */,
 				37EB14C71909965F00F1E104 /* Foundation.framework in Frameworks */,
@@ -79,6 +104,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3782018D1919746400D2EC55 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3782019E191AD55500D2EC55 /* sky8.png */,
+				3782019F191AD55500D2EC55 /* sky8@2x.png */,
+				37820194191ACEAD00D2EC55 /* sun001.png */,
+				37820191191ACEA100D2EC55 /* sun001@2x.png */,
+				3782019A191AD4CB00D2EC55 /* sunriseSky001.png */,
+				3782019B191AD4CB00D2EC55 /* sunriseSky001@2x.png */,
+				37820196191ACFD700D2EC55 /* land001.png */,
+				37820197191ACFD700D2EC55 /* land001@2x.png */,
+				3782018E1919747300D2EC55 /* riseWithNature001.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		37EB14BA1909965F00F1E104 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +142,8 @@
 		37EB14C51909965F00F1E104 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37C1C6B91909B4D700A2C26D /* CoreLocation.framework */,
+				37C1C6B71909B30B00A2C26D /* MapKit.framework */,
 				37EB14C61909965F00F1E104 /* Foundation.framework */,
 				37EB14C81909965F00F1E104 /* CoreGraphics.framework */,
 				37EB14CA1909965F00F1E104 /* UIKit.framework */,
@@ -112,6 +155,9 @@
 		37EB14CC1909965F00F1E104 /* paleoalarm */ = {
 			isa = PBXGroup;
 			children = (
+				3782018D1919746400D2EC55 /* Images */,
+				37EB15071909AEBA00F1E104 /* EDSunriseSet.h */,
+				37EB15081909AEBA00F1E104 /* EDSunriseSet.m */,
 				37EB14D51909965F00F1E104 /* AppDelegate.h */,
 				37EB14D61909965F00F1E104 /* AppDelegate.m */,
 				37EB14D81909965F00F1E104 /* Main.storyboard */,
@@ -228,9 +274,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3782019D191AD4CB00D2EC55 /* sunriseSky001@2x.png in Resources */,
 				37EB14DF1909965F00F1E104 /* Images.xcassets in Resources */,
+				3782019C191AD4CB00D2EC55 /* sunriseSky001.png in Resources */,
 				37EB14D11909965F00F1E104 /* InfoPlist.strings in Resources */,
+				378201A0191AD55500D2EC55 /* sky8.png in Resources */,
 				37EB14DA1909965F00F1E104 /* Main.storyboard in Resources */,
+				37820199191ACFD700D2EC55 /* land001@2x.png in Resources */,
+				378201A1191AD55500D2EC55 /* sky8@2x.png in Resources */,
+				37820195191ACEAD00D2EC55 /* sun001.png in Resources */,
+				37820198191ACFD700D2EC55 /* land001.png in Resources */,
+				3782018F1919747300D2EC55 /* riseWithNature001.png in Resources */,
+				37820193191ACEA100D2EC55 /* sun001@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +307,7 @@
 				37EB14DD1909965F00F1E104 /* ViewController.m in Sources */,
 				37EB14D71909965F00F1E104 /* AppDelegate.m in Sources */,
 				37EB14D31909965F00F1E104 /* main.m in Sources */,
+				37EB15091909AEBA00F1E104 /* EDSunriseSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +512,7 @@
 				37EB14F71909965F00F1E104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37EB14F81909965F00F1E104 /* Build configuration list for PBXNativeTarget "paleoalarmTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +521,7 @@
 				37EB14FA1909965F00F1E104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

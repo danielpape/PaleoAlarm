@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "EDSunriseSet.h"
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *dateLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *drageImage;
+@property (strong, nonatomic) IBOutlet UIImageView *skyDarkener;
+@property (strong, nonatomic) IBOutlet UIImageView *sunImage;
 
 @end
